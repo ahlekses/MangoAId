@@ -6,14 +6,14 @@ import Experience from "./Experience";
 import Achievement from "./Achievement";
 import { FadeIn } from "./FadeIn";
 
-const Resume = () => {
-  const [educationData, setEducationData] = useState<Boolean>(true);
-  const [skillData, setSkillData] = useState<Boolean>(false);
-  const [experienceData, setExperienceData] = useState<Boolean>(false);
-  const [achievementData, setAchievementData] = useState<Boolean>(false);
+const Vision = () => {
+  const [educationData, setEducationData] = useState<boolean>(true);
+  const [skillData, setSkillData] = useState<boolean>(false);
+  const [experienceData, setExperienceData] = useState<boolean>(false);
+  const [achievementData, setAchievementData] = useState<boolean>(false);
   return (
     <section
-      id="resume"
+      id="vision"
       className="w-full py-20 border-b-[1px] border-b-gray-700"
     >
       <FadeIn>
@@ -93,4 +93,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default Vision;

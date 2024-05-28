@@ -1,12 +1,10 @@
 import Banner from "./components/Banner";
 import Contact from "./components/Contact";
 import Feature from "./components/Feature";
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Projects";
-import Resume from "./components/Resume";
-import Testimonial from "./components/Testimonial";
+import Vision from "./components/Vision";
 import WebcamClassifier from './components/WebcamClassifier';
+import FooterBottom from "./components/FooterBottom";
 
 function App() {
   return (
@@ -16,15 +14,13 @@ function App() {
         <div className="max-w-screen-xl mx-auto">
           <Banner />
           <Feature />
-          <Projects />
           <WebcamClassifier 
   modelURL="https://teachablemachine.withgoogle.com/models/YylKzHTPD/model.json"
   metadataURL="https://teachablemachine.withgoogle.com/models/YylKzHTPD/metadata.json"
 />
-          <Resume />
-          <Testimonial />
+          <Vision />
           <Contact />
-          <Footer />
+          <FooterBottom />
     
 
         </div>

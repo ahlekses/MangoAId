@@ -74,7 +74,8 @@ const WebcamClassifier: React.FC<WebcamClassifierProps> = ({ modelURL, metadataU
   }, [model]);
 
   return (
-    <div className="video-container">
+  
+    <div className="video-container" id="AI">
       <video ref={videoRef} autoPlay muted />
       <h2 className="label">{label} ({(confidence * 100).toFixed(2)}%)</h2>
     </div>
