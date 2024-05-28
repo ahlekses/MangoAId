@@ -54,7 +54,7 @@ const Contact = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="CONTACT" des="Contact With Me" />
+          <Title title="" des="Contact Us" />
         </div>
         <div className="w-full">
           <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">

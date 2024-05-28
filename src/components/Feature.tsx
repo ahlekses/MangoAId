@@ -1,6 +1,5 @@
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { SiProgress } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
@@ -31,24 +30,6 @@ const Feature = () => {
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
       hic consequuntur eum repellendus ad."
             icon={<SiProgress />}
-          />
-          <Card
-            title="Mobile Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<FaMobile />}
-          />
-          <Card
-            title="UX Design"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<SiAntdesign />}
-          />
-          <Card
-            title="Hosting Websites"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
-            icon={<FaGlobe />}
           />
         </div>
       </FadeIn>
