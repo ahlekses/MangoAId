@@ -27,3 +27,24 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-width: 640px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}

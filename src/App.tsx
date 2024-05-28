@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Testimonial from "./components/Testimonial";
+import WebcamClassifier from './components/WebcamClassifier';
 
 function App() {
   return (
@@ -16,10 +17,16 @@ function App() {
           <Banner />
           <Feature />
           <Projects />
+          <WebcamClassifier 
+  modelURL="https://teachablemachine.withgoogle.com/models/YylKzHTPD/model.json"
+  metadataURL="https://teachablemachine.withgoogle.com/models/YylKzHTPD/metadata.json"
+/>
           <Resume />
           <Testimonial />
           <Contact />
           <Footer />
+    
+
         </div>
       </div>
     </main>
