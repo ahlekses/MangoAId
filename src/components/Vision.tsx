@@ -35,7 +35,7 @@ const Vision = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Education
+              Lorem
             </li>
             <li
               onClick={() => {
@@ -50,7 +50,7 @@ const Vision = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Professional Skills
+              Lorem
             </li>
             <li
               onClick={() => {
@@ -65,7 +65,7 @@ const Vision = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Experience
+              Lorem
             </li>
             <li
               onClick={() => {
@@ -80,7 +80,7 @@ const Vision = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Achievements
+              Lorem
             </li>
           </ul>
         </div>
