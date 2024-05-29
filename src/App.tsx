@@ -18,7 +18,7 @@ function App() {
   modelURL="https://teachablemachine.withgoogle.com/models/1i-ED2nSZ/model.json"
   metadataURL="https://teachablemachine.withgoogle.com/models/1i-ED2nSZ/metadata.json"
 />
-          <Vision />
+          <Vision />``
           <Contact />
           <FooterBottom />
     
