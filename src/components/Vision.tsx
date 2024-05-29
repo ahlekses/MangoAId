@@ -8,6 +8,7 @@ import { FadeIn } from "./FadeIn";
 
 const Vision = () => {
   const [educationData, setEducationData] = useState<boolean>(true);
+  
   const [skillData, setSkillData] = useState<boolean>(false);
   const [experienceData, setExperienceData] = useState<boolean>(false);
   const [achievementData, setAchievementData] = useState<boolean>(false);

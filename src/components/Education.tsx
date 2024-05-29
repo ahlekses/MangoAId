@@ -19,8 +19,8 @@ const Education = () => {
             title="Technical Prototyping"
             subTitle=""
             result="May"
-            des="Present the developed image model to the MSUIIT - ICT 277 pannelists"
-          />
+            des="Present the developed image model to the MSUIIT - ICT 277 pannelists"          
+            />
           <ResumeCard
             title="Information Drive"
             subTitle=""

@@ -19,6 +19,7 @@ const LeftBanner = () => {
          Mango<span className="text-designColor capitalize">AI</span>d
         </h1>
         <h2 className="text-4xl font-bold text-white">
+          
           for <span>{text}</span>
           <Cursor cursorStyle="|" cursorColor="#AAFF00" />
         </h2>

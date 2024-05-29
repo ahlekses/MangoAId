@@ -18,6 +18,7 @@ const Feature = () => {
             des="Through a camera input, I can identify Anthracnose, Powdery Mildew, or Scab in mangoes"
             icon={null}
           />
+          
           <Card
             title="Calculate"
             des="The certainty of my identifications are calculated for your reference"

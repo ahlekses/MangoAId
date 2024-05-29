@@ -22,6 +22,7 @@ const Card = ({ title, des, icon }: Props) => {
                 <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
               </>
             )}
+            
           </div>
           <div className="flex flex-col gap-6">
             <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">

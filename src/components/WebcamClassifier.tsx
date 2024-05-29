@@ -7,6 +7,7 @@ interface WebcamClassifierProps {
   metadataURL: string;
 }
 
+
 const classDescriptions: { [key: string]: string } = {
   Anthracnose: "a major post-harvest problem of mango fruits and is the most serious fungal disease of mangoes in the Philippines. causes irregular brown spots on young leaves while mature leaves get distorted with “shot holes” in various shapes and sizes. It also blackens and withers the flowers and produces “blossom blight” while causing brown to black sunken spots on the fruits.",
   "Powdery Mildew": "caused by the fungus Oidium mangiferae and causes extremely high reductions in yield which attacks inflorescences, leaves, and young fruits.",
