@@ -1,7 +1,7 @@
 import { FaFacebookF, FaInstagram} from "react-icons/fa";
 import { contactImg } from "../assets";
 
-const twoFB = (e) => {
+const twoFB = (e: { preventDefault: () => void; }) => {
   e.preventDefault();
   window.open('https://www.facebook.com/feegy/', '_blank');
   window.open('https://www.facebook.com/queenie/', '_blank'); // Replace 'https://www.example.com' with the second URL you want to open
