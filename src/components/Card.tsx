@@ -1,4 +1,4 @@
-import { HiArrowRight } from "react-icons/hi";
+
 
 interface Props {
   title: string;
@@ -29,7 +29,7 @@ const Card = ({ title, des, icon }: Props) => {
             </h2>
             <p className="base">{des}</p>
             <span className="text-2xl text-designColor">
-              <HiArrowRight />
+           
             </span>
           </div>
         </div>

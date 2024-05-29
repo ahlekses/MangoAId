@@ -11,24 +11,21 @@ const Feature = () => {
       className="w-full py-20 border-b-[1px] border-b-gray-700"
     >
       <FadeIn>
-        <Title title="Lorem" des="What I Do" />
+        <Title title="features" des="What I Do" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
           <Card
-            title="Lorem"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Identify"
+            des="Through a camera input, I can identify Anthracnose, Powdery Mildew, or Scab in mangoes"
             icon={null}
           />
           <Card
-            title="Lorem"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Calculate"
+            des="The certainty of my identifications are calculated for your reference"
             icon={<AiFillAppstore />}
           />
           <Card
-            title="Lorem"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Inform"
+            des="I have a descriptive feature incorporated to inform users of what the identified disease means for their harvest"
             icon={<SiProgress />}
           />
         </div>

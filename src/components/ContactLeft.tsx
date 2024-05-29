@@ -1,5 +1,11 @@
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram} from "react-icons/fa";
 import { contactImg } from "../assets";
+
+const twoFB = (e) => {
+  e.preventDefault();
+  window.open('https://www.facebook.com/feegy/', '_blank');
+  window.open('https://www.facebook.com/queenie/', '_blank'); // Replace 'https://www.example.com' with the second URL you want to open
+};
 
 const ContactLeft = () => {
   return (
@@ -14,28 +20,25 @@ const ContactLeft = () => {
         <p className="text-lg font-normal text-gray-400">
           
         </p>
+  
         <p className="text-base text-gray-400 tracking-wide">
         This is an initiative, by a pair of Masters of Science in Information Technology students at the Mindanao State University 
           - Iligan Institute of Technology (MSUIIT), to partake in the Philippine's technological advancement in agricultural innovation.
         </p>
       </div>
       <div className="flex flex-col gap-4">
-        <h2 className="text-base uppercase font-titleFont mb-4">Find them in</h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">For data set and development contributions find them in</h2>
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-            <span className="bannerIcon">
-              <FaYoutube />
-            </span>
-          </a>
+   
           <a
             href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
             target="_blank"
           >
             <span className="bannerIcon">
-              <FaLinkedinIn />
+              <FaInstagram />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a onClick={twoFB} target="_blank">
             <span className="bannerIcon">
               <FaFacebookF />
             </span>

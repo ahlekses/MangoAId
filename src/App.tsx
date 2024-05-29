@@ -15,8 +15,8 @@ function App() {
           <Banner />
           <Feature />
           <WebcamClassifier 
-  modelURL="https://teachablemachine.withgoogle.com/models/YylKzHTPD/model.json"
-  metadataURL="https://teachablemachine.withgoogle.com/models/YylKzHTPD/metadata.json"
+  modelURL="https://teachablemachine.withgoogle.com/models/1i-ED2nSZ/model.json"
+  metadataURL="https://teachablemachine.withgoogle.com/models/1i-ED2nSZ/metadata.json"
 />
           <Vision />
           <Contact />

@@ -21,7 +21,7 @@ const Vision = () => {
           <Title title="future development" des="Vision" />
         </div>
         <div>
-          <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+          <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
             <li
               onClick={() => {
                 setEducationData(true);
@@ -35,7 +35,7 @@ const Vision = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Lorem
+              Timeline
             </li>
             <li
               onClick={() => {
@@ -50,38 +50,9 @@ const Vision = () => {
                   : "border-transparent"
               } resumeLi`}
             >
-              Lorem
+              Accuracy
             </li>
-            <li
-              onClick={() => {
-                setEducationData(false);
-                setSkillData(false);
-                setExperienceData(true);
-                setAchievementData(false);
-              }}
-              className={`${
-                experienceData
-                  ? "border-designColor rounded-lg"
-                  : "border-transparent"
-              } resumeLi`}
-            >
-              Lorem
-            </li>
-            <li
-              onClick={() => {
-                setEducationData(false);
-                setSkillData(false);
-                setExperienceData(false);
-                setAchievementData(true);
-              }}
-              className={`${
-                achievementData
-                  ? "border-designColor rounded-lg"
-                  : "border-transparent"
-              } resumeLi`}
-            >
-              Lorem
-            </li>
+           
           </ul>
         </div>
         {educationData && <Education />}

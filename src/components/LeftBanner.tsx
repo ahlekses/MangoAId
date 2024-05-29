@@ -1,5 +1,6 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import { FaGoogle } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
@@ -22,8 +23,7 @@ const LeftBanner = () => {
           <Cursor cursorStyle="|" cursorColor="#AAFF00" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta hic consequuntur eum repellendus ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Atque soluta hic consequuntur eum repellendus ad.
+        an open-source mango fruit disease AI dectector developed in the Philippines for anyone to contribute, download, and integrate in the technological advancement of mango harvest.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -32,22 +32,15 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            <a href="https://github.com/ahlekses/MangoAId" target="_blank">
               <span className="bannerIcon">
-                <FaYoutube />
+              <BsGithub />
               </span>
             </a>
-            <a
-              href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
-              target="_blank"
-            >
+    
+            <a href="https://teachablemachine.withgoogle.com/models/1i-ED2nSZ/" target="_blank">
               <span className="bannerIcon">
-                <FaLinkedinIn />
-              </span>
-            </a>
-            <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
-              <span className="bannerIcon">
-                <FaFacebookF />
+                <FaGoogle />
               </span>
             </a>
           </div>
